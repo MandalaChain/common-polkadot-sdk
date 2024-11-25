@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732442139880,
+  "lastUpdate": 1732517138259,
   "repoUrl": "https://github.com/paritytech/polkadot-sdk",
   "entries": {
     "availability-distribution-regression-bench": [
@@ -38581,6 +38581,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "test-environment",
             "value": 0.008795056220000087,
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail.guptanikhil@gmail.com",
+            "name": "gupnik",
+            "username": "gupnik"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6da7d36e060c6e5fd5a20395470db6910037a640",
+          "message": "Fixes cfg attributes in runtime macro (#6410)\n\nFixes https://github.com/paritytech/polkadot-sdk/issues/6209\n\nThis PR adds the support for cfg attributes in the runtime macro.\n\n---------\n\nCo-authored-by: Bastian Köcher <git@kchr.de>",
+          "timestamp": "2024-11-25T05:26:21Z",
+          "tree_id": "85f8ff9ed87e327454c39cc5957736c028e23212",
+          "url": "https://github.com/paritytech/polkadot-sdk/commit/6da7d36e060c6e5fd5a20395470db6910037a640"
+        },
+        "date": 1732517118680,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Received from peers",
+            "value": 433.3333333333332,
+            "unit": "KiB"
+          },
+          {
+            "name": "Sent to peers",
+            "value": 18481.666666666653,
+            "unit": "KiB"
+          },
+          {
+            "name": "bitfield-distribution",
+            "value": 0.024660721379999993,
+            "unit": "seconds"
+          },
+          {
+            "name": "availability-distribution",
+            "value": 0.01637079624666667,
+            "unit": "seconds"
+          },
+          {
+            "name": "availability-store",
+            "value": 0.17903762014666658,
+            "unit": "seconds"
+          },
+          {
+            "name": "test-environment",
+            "value": 0.008746527013333418,
             "unit": "seconds"
           }
         ]
