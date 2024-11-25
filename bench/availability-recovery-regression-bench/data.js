@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732442112656,
+  "lastUpdate": 1732517111501,
   "repoUrl": "https://github.com/paritytech/polkadot-sdk",
   "entries": {
     "availability-recovery-regression-bench": [
@@ -31011,6 +31011,50 @@ window.BENCHMARK_DATA = {
           {
             "name": "test-environment",
             "value": 0.23093894463333334,
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail.guptanikhil@gmail.com",
+            "name": "gupnik",
+            "username": "gupnik"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6da7d36e060c6e5fd5a20395470db6910037a640",
+          "message": "Fixes cfg attributes in runtime macro (#6410)\n\nFixes https://github.com/paritytech/polkadot-sdk/issues/6209\n\nThis PR adds the support for cfg attributes in the runtime macro.\n\n---------\n\nCo-authored-by: Bastian Köcher <git@kchr.de>",
+          "timestamp": "2024-11-25T05:26:21Z",
+          "tree_id": "85f8ff9ed87e327454c39cc5957736c028e23212",
+          "url": "https://github.com/paritytech/polkadot-sdk/commit/6da7d36e060c6e5fd5a20395470db6910037a640"
+        },
+        "date": 1732517092171,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Received from peers",
+            "value": 307203,
+            "unit": "KiB"
+          },
+          {
+            "name": "Sent to peers",
+            "value": 1.6666666666666665,
+            "unit": "KiB"
+          },
+          {
+            "name": "availability-recovery",
+            "value": 11.650204262433332,
+            "unit": "seconds"
+          },
+          {
+            "name": "test-environment",
+            "value": 0.2305162422,
             "unit": "seconds"
           }
         ]
