@@ -141,6 +141,7 @@ where
 		+ Into<U256>
 		+ TryFrom<U256>,
 	Hash: HashT,
+	Self: Encode,
 {
 	/// Convenience helper for computing the hash of the header without having
 	/// to import the trait.
