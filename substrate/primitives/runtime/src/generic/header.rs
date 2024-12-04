@@ -76,6 +76,7 @@ impl<Number, Hash> traits::Header for Header<Number, Hash>
 where
 	Number: BlockNumber,
 	Hash: HashT,
+	Self: Encode,
 {
 	type Number = Number;
 	type Hash = <Hash as HashT>::Output;
